@@ -6,9 +6,14 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+firebase = "*"
 numpy = "*"
-matplotlib = "*"
 opencv-python = "~=3.4.3.18"
+python-jwt = "*"
+gcloud = "*"
+sseclient = "*"
+pycrypto = "*"
+requests-toolbelt = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.6"
